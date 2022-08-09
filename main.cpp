@@ -117,13 +117,14 @@ bool result()
 
 void tictac()
 {
-    jump: displayboard();
+   
 
     int p1=0,p2=0;
     int turn =0;
     bool flag = true;
     while(flag)
     {
+         jump: displayboard();
         int cur = -1;
         if(turn%2 == 0)
             {
